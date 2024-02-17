@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;    
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #F5F7FB;
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    height: 100vh;
+    display: grid;
+}
+
+
+/*---------------------------------Intro----------------------------------- */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #293264;  
+    height: 100%;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.4em;
+}
+
+.intro p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    margin: 0 0 1.8em 0;
+}
+
+.intro button {
+    padding: 1.2em 3.75em;
+    background-color: #4D5B9E;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;    
+    color: #F5F7FB;
+    outline: none;
+}
+
+.lemony-img, .blue-img {
+    position: absolute;
+}
+
+.lemony-img {
+    top: 0;
+    right: 0;
+}
+
+.blue-img {
+    bottom: 0;
+    left: 0;
+}
+
+/* --------------------Questions--------------------- */
+
+main {
+    margin: 3em auto;
+    padding: 0 5em 0;
+    width: 95%;
+    max-width: 1000px;
+    min-width: 750px;
+}
+
+.queries-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.queries-container h2 {
+    font-size: 1.3rem;
+    color: #293264;
+    margin-bottom: 1.4rem;
+}
+
+.form {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    display: none;
+}
+
+.label {
+    margin-right: .75em;
+    padding: .35em 1.4em;
+    border: 1px solid #4D5B9E;
+    border-radius: 1em;
+    font-family: 'Inter', sans-serif;
+    font-size: .9rem;
+    color: #293264;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+.query {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #DBDEF0;
+}
+
+/* -----------------------Extra Styles -----------------------*/
+
+.check-btn-container {
+    /* border: 1px solid magenta; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8em;
+}
+
+.check-btn-container p {
+    color: #293264;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.check-btn {
+    display: flex;
+    margin-left: 2em;
+    font-family: 'Inter', sans-serif;
+    font-size: .9em;
+    font-weight: 500;
+    color: #F5F7FB;
+    background-color: #4D5B9E;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+}
