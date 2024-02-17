@@ -8,7 +8,7 @@ body {
     background-color: #F5F7FB;
     font-family: 'Karla', sans-serif;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
 }
 
@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #293264;  
-    height: 100%;
+    min-height: 100vh;
 }
 
 .intro h1 {
